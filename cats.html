@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>My favorite cats</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+        width: auto;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="Logo.png" alt="Logo" width="60" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cats.html">Favorite cats</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cold-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="macnhkin.jpg" class="card-img-top" alt="cat" />
+            <div class="card-body">
+              <h5 class="card-title">Munchkin cat</h5>
+              <p class="card-text">
+                The Munchkin, also known as Sausage Cat, is a breed of cat
+                characterized by its very short legs, which are caused by
+                genetic mutation. The Munchkin is considered to be the original
+                breed of dwarf cat.
+              </p>
+              <a
+                href="https://en.wikipedia.org/wiki/Munchkin_cat"
+                target="_blank"
+                class="btn btn-primary"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="persian.jpg" class="card-img-top" alt="cat" />
+            <div class="card-body">
+              <h5 class="card-title">Persian cat</h5>
+              <p class="card-text">
+                The Persian cat, also known as the Persian longhair, is a
+                long-haired breed of cat characterised by a round face and short
+                muzzle.
+              </p>
+              <a
+                href="https://en.wikipedia.org/wiki/Persian_cat"
+                target="_blank"
+                class="btn btn-primary"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="ragdoll-cat.jpg" class="card-img-top" alt="cat" />
+            <div class="card-body">
+              <h5 class="card-title">Ragdoll cat</h5>
+              <p class="card-text">
+                The Ragdoll is a breed of cat with a distinct colorpoint coat
+                and blue eyes. Its morphology is large and weighty, and it has a
+                semi-long and silky soft coat.
+              </p>
+              <a
+                href="https://en.wikipedia.org/wiki/Ragdoll"
+                target="_blank"
+                class="btn btn-primary"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
